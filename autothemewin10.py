@@ -56,15 +56,14 @@ def register_scheduled_task():
                r"/Create",
                r"/SC",
                r"HOURLY",
-               r"/D",
-               r"*",
-               r"/M",
-               r"*",
+               r"/ST",
+               r"00:00",
                r"/TN",
                r"AutoThemeWin10",
                r"/TR",
-               r"autothemewin10"]
-    subprocess.command(command)
+               r"autothemewin10",
+               r"/F"]
+    subprocess.run(command)
 
 
 @app.command()
