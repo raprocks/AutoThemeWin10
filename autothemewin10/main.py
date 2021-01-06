@@ -70,7 +70,7 @@ def register_scheduled_task():
                r"/TN",
                r"AutoThemeWin10",
                r"/TR",
-               r"autothemewin10",
+               r"autotheme runner",
                r"/F"]
     subprocess.run(command)
 
