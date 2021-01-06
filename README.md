@@ -30,4 +30,20 @@ hence you need to get flit first
 python -m pip install --upgrade flit
 ```
 
-then git clone the repo and in the root of the folder do flit install after making the necessary changes.
+then git clone the repo and in the root of the folder do flit install after making the necessary changes do flit install.
+
+```bash
+flit install
+```
+this will get all of the required modules and register the shell script.
+
+## Usage
+All you need to do to registed the scheduled task is run
+```bash
+autotheme register-scheduled-task
+```
+this will register the script as a scheduled task to run
+
+you can manually use the subcommands to make your own scheduled tasks as you please using the task scheduler in windows.
+
+if you like the work please star the repo and provide feedback on bugs you encounter and feature you need.
