@@ -17,7 +17,7 @@ runner function is the main entry point per-se. the functions are the subcommand
 
 ## installation
 
-#### using pip
+### using pip
 
 ```bash
 python -m pip install --upgrade autothemewin10
@@ -28,7 +28,7 @@ python -m pip install --upgrade autothemewin10
 i used flit for this package to manage it's installation and publishing.
 hence you need to get flit first
 
-```
+```bash
 python -m pip install --upgrade flit
 ```
 
